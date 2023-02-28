@@ -47,9 +47,10 @@ header>ul {
     padding: 4em 8em;
     color: white;
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 200px;
-    gap: 20px;
+    height: auto;
+    gap: 2em;
 }
 
 .signup {
@@ -57,16 +58,18 @@ header>ul {
     display: flex;
     flex-direction: column;
     gap: 0.4em;
-
+    min-width: 300px;
+    max-width: 500px;
 }
 
 .img-placeholder {
-    flex: 1;
+    height: 200px;
+    width: 300px;
     background-color: #535353;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 button {
@@ -75,7 +78,8 @@ button {
     color: #E5E7EB;
     border-radius: 0.5em;
     padding: 0.5em;
-    width: 100px;
+    width: 6em;
+    min-width: 6em;
 }
 
 .signup>h1 {
@@ -86,30 +90,32 @@ button {
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: auto;
     gap: 1em;
     padding: 4em 8em;
 }
 
 .cards {
     display: flex;
-    height: auto;
+    justify-content: center;
+    gap: 6em;
+    width: auto;
+    flex-wrap: wrap;
 
 }
 
 .card {
     display: flex;
-    flex: 1;
     flex-direction: column;
     align-items: center;
-    width: 100px;
     gap: 0.3em;
+
 }
 
 .card>p {
     margin: 0px;
     width: 100px;
     font-size: small;
+
 }
 
 .square {
@@ -148,6 +154,7 @@ button {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    gap: 1em;
 }
 
 h4,
@@ -165,7 +172,7 @@ p {
 footer {
     display: flex;
     background-color: #1F2937;
-    height: 50px;
+    height: 6em;
     align-items: center;
     justify-content: center;
     color: #E5E7EB;
