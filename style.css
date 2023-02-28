@@ -6,7 +6,8 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    margin: 0px;
 }
 
 ul {
@@ -23,6 +24,149 @@ a {
 header {
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4em 8em;
+}
+
+header>ul {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-one {
+    background-color: #1F2937;
+    padding: 4em 8em;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    gap: 20px;
+}
+
+.signup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+
+}
+
+.img-placeholder {
+    flex: 1;
+    background-color: #535353;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882F6;
+    border: none;
+    color: #E5E7EB;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    width: 100px;
+}
+
+.signup>h1 {
+    font-size: 36px;
+}
+
+.container-two {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    gap: 1em;
+    padding: 4em 8em;
+}
+
+.cards {
+    display: flex;
+    height: auto;
+
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    gap: 0.3em;
+}
+
+.card>p {
     margin: 0px;
+    width: 100px;
+    font-size: small;
+}
+
+.square {
+    border: solid 2px;
+    border-color: #3882F6;
+    border-radius: 0.3em;
+    width: 100px;
+    height: 100px;
+}
+
+.container-three {
+    background-color: #E5E7EB;
+    padding: 4em 8em;
+}
+
+.comment {
+    font-size: x-large;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.signature {
+    text-align: end;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: large;
+    font-style: normal;
+}
+
+.container-four {
+    background-color: #3882F6;
+    margin: 4em 8em;
+    border-radius: 0.5em;
+    padding: 2em 4em;
+    color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4,
+h1,
+p {
+    margin: 1px;
+}
+
+
+.container-four>button {
+    border-color: #F9FAF8;
+    border: solid 2px;
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    color: #E5E7EB;
 }
