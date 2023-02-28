@@ -1,1 +1,1 @@
-# landing_page
+This is the landing_page assignment from the Odin's Project course.
